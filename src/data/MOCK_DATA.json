@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673485730/1aa3abc4-692e-466b-b985-570a178f25ef_do8rzr.webp",
+        "title":"Mike Air Force 1",
+        "description":"Las Nike Air Force 1 ofrecen total comodidad. La piel clásica y los detalles que hicieron de estas zapatillas un icono hacen destacar tu estilo en la calle.",
+        "price":99.99,
+        "stock":15,
+        "category":"Niños"
+    },
+    {
+        "id":2,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673489233/61a4f0d8-6f3c-4341-97ca-bb2e1d55e2e3_goblvk.webp",
+        "title":"Yordan Max Aura 4",
+        "description":"Estas zapatillas de nueva generación inspiradas en el baloncesto están inspiradas en sus predecesoras. Los detalles clásicos aparecen en la suela con logotipos moldeados.",
+        "price":89.99,
+        "stock":15,
+        "category":"Niños"
+    },
+    {
+        "id":3,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673530915/499d24ee-a8ff-4d22-b6e6-fc5a2347229a_ll78jy.webp",
+        "title":"Mike Air Max Plus",
+        "description":"Las Nike Air Max Plus aportan la legendaria amortiguación 'Tuned' Air para mayor comodidad. El diseño mantiene la inspiración original: líneas onduladas.",
+        "price":149.99,
+        "stock":15,
+        "category":"Niños"
+    },
+    {
+        "id":4,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673531584/61d4da5c-e296-4729-887d-9fae18453b8d_mn5bgl.webp",
+        "title":"Mike Metcon 8 FlyEase",
+        "description":"Vas siempre a contrarreloj y animas y retas a los demás a alcanzar sus objetivos y mejorar. Nuestro modelo ideal para el entrenamiento cuenta con una parte superior más ligera.",
+        "price":90.97,
+        "stock":15,
+        "category":"Mujeres"
+    },
+    {
+        "id":5,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673531946/d59f0dcf-c4ae-46fe-bff4-b723fca3f955_szxvpi.webp",
+        "title":"Mike React Pegasus",
+        "description":"El running forma parte de tu día a día y te lleva del asfalto a los senderos mientras buscas aventuras y nuevos objetivos.",
+        "price":77.97,
+        "stock":15,
+        "category":"Mujeres"
+    },
+    {
+        "id":6,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673532091/ccf6dc55-7eca-4ab4-98d1-f2933199252b_hmzpgp.webp",
+        "title":"Air Jordan 1 Elevate",
+        "description":"El estilo Jordan clásico alcanza nuevas alturas con estas AJ1 elevadas. La plataforma y la zona del tobillo para una mayor flexibilidad.",
+        "price":149.99,
+        "stock":15,
+        "category":"Mujeres"
+    },
+    {
+        "id":7,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673534490/b0dcd29c-9fe8-44fd-9b4d-a821cea0cacb_m2kxwo.webp",
+        "title":"Air Yordan 1 Mid",
+        "description":"Inspirada en las AJ1 originales, esta edición de perfil medio mantiene el look icónico que más te gusta y los colores elegidos y la piel impecable aportan una identidad distintiva.",
+        "price":129.99,
+        "stock":15,
+        "category":"Hombres"
+    },
+    {
+        "id":8,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673534638/524a838f-2358-4bb6-ae3b-5b075e87c12d_bjplqt.webp",
+        "title":"Mike Court Vision Low",
+        "description":"Nos encanta el look del baloncesto clásico y nos apasiona la naturaleza trepidante del deporte actual. Pues bien: te presentamos las Nike Court Vision Low.",
+        "price":74.99,
+        "stock":15,
+        "category":"Hombres"
+    },
+    {
+        "id":9,
+        "pictureUrl":"https://res.cloudinary.com/axiever/image/upload/v1673534819/0de73c76-fbb0-487f-9ec2-103bf0629dfa_ljsonb.webp",
+        "title":"Mike Pegasus 39",
+        "description":"Este todoterreno con alas no se queda con la nostalgia. Ahora confeccionadas con más detalles llamativos y cómodos.",
+        "price":87.47,
+        "stock":15,
+        "category":"Hombres"
+    }
+]
