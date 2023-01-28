@@ -34,6 +34,12 @@ const Navbarr = () => {
               Niños
             </Link>
             </Nav.Link>
+            <Nav.Link>
+            <Link className="text-light" to="/contacto">
+              Contacto
+            </Link>
+            </Nav.Link>
+            
                       
             <form className="d-flex" role="search">
               <input

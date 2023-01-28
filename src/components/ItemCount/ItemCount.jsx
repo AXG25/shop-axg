@@ -1,29 +1,31 @@
 import Button from "react-bootstrap/Button";
 import { ButtonGroup } from "react-bootstrap";
-import { useState } from "react";
 
-export const ItemCount= () => {
-  const [counter, setCounter] = useState(1);
-  const sumar = () => {
-    if (counter < 20) {
-      setCounter(counter + 1);
-    }
-  };
-  const restar = () => {
-    if (counter > 1) {
-      setCounter(counter - 1);
-    }
+export const ItemCount= ({cantidad, setCantidad, max, onAdd}) => {
+  const handleRestar = () => {
+    cantidad > 1 && setCantidad(cantidad - 1);
+    };
+    
+  const handleSumar = () => {
+    cantidad < max && setCantidad(cantidad + 1)
   };
   return (
+    <>
     <ButtonGroup>
-      <Button variant="outline-dark" onClick={restar}>
+      <Button variant="outline-dark" onClick={handleRestar}>
         -
       </Button>
-      <Button variant="dark">{counter}</Button>
-      <Button variant="outline-dark" onClick={sumar}>
+      <Button variant="dark">{cantidad}</Button>
+      <Button variant="outline-dark" onClick={handleSumar}>
         +
       </Button>
     </ButtonGroup>
+    <br/>
+    <Button variant='dark' onClick={onAdd}>Agregar al carrito</Button>
+
+    </>
+    
+    
   );
 }
 
