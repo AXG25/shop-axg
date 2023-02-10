@@ -8,8 +8,10 @@ function ItemListContainer() {
 
   const {categoryId} = useParams()
   const [productos, setProductos] = useState([]);
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    setLoading(true)
     pedirDatos()
       .then((res) => {
         if (categoryId){
@@ -20,12 +22,19 @@ function ItemListContainer() {
       })
       .catch((err) => {
         console.log(err);
-      });
+      })
+      .finally(() => {
+        setLoading(false)
+      })
   }, [categoryId]);
 
   return (
     <div className="">
-      <ItemList productos={productos} />
+      {
+        loading
+          ? <h2>Cargando...</h2>
+          : <ItemList productos={productos} />
+      }
     </div>
   );
 }

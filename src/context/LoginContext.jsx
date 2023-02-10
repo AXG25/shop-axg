@@ -24,7 +24,7 @@ export const useLoginContext = () => {
 export const LoginProvider = ({ children }) => {
   const [user, setUser] = useState({
     email: "",
-    logged: false,
+    logged: true,
     error: null,
   });
   console.log(user)
