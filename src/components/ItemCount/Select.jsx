@@ -1,4 +1,6 @@
+import './select.css'
 import React from 'react'
+
 
 const Select = ({options, set}) => {
 
@@ -8,7 +10,7 @@ const Select = ({options, set}) => {
     }
 
   return (
-    <select onChange={handleChange}> 
+    <select className='form-select f' onChange={handleChange}> 
         {options.map((opt) => <option value={opt.value}>{opt.text}</option>)}
     </select>
   )

@@ -4,8 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import CartWidget from "../CartWidget/CartWidget";
 import { Link } from "react-router-dom";
+import { useLoginContext } from "../../context/LoginContext";
 
 const Navbarr = () => {
+
+  const { user, logout } = useLoginContext()
+
   return (
     <Navbar bg="dark" expand="lg">
       <Container>
@@ -18,7 +22,7 @@ const Navbarr = () => {
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="m-auto">
             <Nav.Link>
             <Link className="text-light" to="/productos/Hombres">
               Hombres
@@ -41,7 +45,7 @@ const Navbarr = () => {
             </Nav.Link>
             
                       
-            <form className="d-flex" role="search">
+            {/* <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
                 type="search"
@@ -51,10 +55,11 @@ const Navbarr = () => {
               <button className="btn btn-outline-light" type="light">
                 Buscar
               </button>
-            </form>
+            </form> */}
           </Nav>
         </Navbar.Collapse>
       <CartWidget /> 
+      <button className="btn btn-light mx-5" onClick={logout}>Logout</button>
     </Container>
     </Navbar>
   );
